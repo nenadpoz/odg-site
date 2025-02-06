@@ -83,6 +83,11 @@ fieldset {
   line-height: 1.4;
 }
 
+::selection {
+  background: var(--purple-3);
+  color: var(--white);
+}
+
 img {
   max-width: 100%;
 }
@@ -181,9 +186,14 @@ img {
   @include min-screen($breakpoint-medium) {
     background-image: url("./src/images/bgr.jpg");
   }
-
+  ::selection {
+    color: var(--purple-1);
+    background: var(--white);
+  }
   .hero {
-    margin-bottom: 50px;
+    @include min-screen($breakpoint-small) {
+      margin-bottom: 50px;
+    }
   }
 
   .hero__text {
@@ -191,7 +201,7 @@ img {
     font: var(--text-2);
     font-size: 16px;
     text-align: center;
-    margin-bottom: 48px;
+    margin-bottom: 58px;
     line-height: 1.5;
 
     @include min-screen($breakpoint-small) {
@@ -256,13 +266,13 @@ img {
       font: var(--h1);
       font-weight: 400;
       font-size: 30px;
-      margin-bottom: 40px;
-      padding-top: 30px;
+      margin-bottom: 50px;
 
       span {
         display: block;
       }
       @include min-screen($breakpoint-small) {
+        padding-top: 30px;
         padding-top: 0;
         margin-bottom: 42px;
         font-size: 69px;
