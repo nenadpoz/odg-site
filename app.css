@@ -579,7 +579,7 @@ a:focus, a:active {
 .home-page .footer a:hover {
   color: var(--gray-5);
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   .footer {
     padding-bottom: 48px;
   }

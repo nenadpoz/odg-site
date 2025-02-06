@@ -33,7 +33,7 @@
       }
     }
   }
-  @include min-screen($breakpoint-medium) {
+  @include min-screen($breakpoint-small) {
     padding-bottom: 48px;
   }
 }
