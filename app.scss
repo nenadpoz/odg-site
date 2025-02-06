@@ -1,0 +1,22 @@
+@import "./src/scss/settings/settings.colors";
+@import "./src/scss/settings/settings.global";
+
+@import "./src/scss/tools/tools.mixins";
+
+@import "./src/scss/generic/generic.reset";
+@import "./src/scss/generic/generic.box-sizing";
+@import "./src/scss/generic/generic.fonts";
+
+@import "./src/scss/elements/elements.page";
+@import "./src/scss/elements/elements.headings";
+@import "./src/scss/elements/elements.links";
+@import "./src/scss/objects/objects.wrapper";
+
+@import "./src/scss/components/components.header";
+@import "./src/scss/components/components.footer";
+@import "./src/scss/components/components.inputs";
+@import "./src/scss/components/components.buttons";
+@import "./src/scss/components/components.nav";
+
+@import "./src/scss/trumps/trumps.helpers";
+@import "./src/scss/trumps/trumps.spacing";

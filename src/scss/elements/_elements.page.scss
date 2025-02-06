@@ -173,12 +173,17 @@ img {
 }
 
 .home-page {
-  background: url("/src/images/bgr-mob.jpg") no-repeat center center
-    var(--purple-1);
+  background-image: url("./src/images/bgr-mob.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: var(--purple-1);
   background-size: cover;
   @include min-screen($breakpoint-medium) {
-    background: url("/src/images/bgr.jpg") no-repeat center center
-      var(--purple-1);
+    background-image: url("./src/images/bgr.jpg");
+  }
+
+  .hero {
+    margin-bottom: 50px;
   }
 
   .hero__text {
@@ -277,101 +282,6 @@ img {
 
   .footer {
     margin-top: 0;
-  }
-  .images-layer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-
-    .swiper-slide {
-      opacity: 0 !important;
-
-      &.swiper-slide-active {
-        opacity: 1 !important;
-      }
-    }
-
-    .slider-1 {
-      position: absolute;
-      top: 57%;
-      left: 2%;
-      width: 100px;
-      height: 100px;
-      img {
-        width: 100px;
-      }
-    }
-
-    .slider-2 {
-      position: absolute;
-      width: 172px;
-      height: 172px;
-      top: 11%;
-      right: 16%;
-      img {
-        width: 172px;
-      }
-    }
-
-    .slider-3 {
-      position: absolute;
-      width: 92px;
-      height: 92px;
-      top: 60%;
-      right: -1%;
-      img {
-        width: 92px;
-      }
-    }
-
-    // img {
-    //   position: absolute;
-    //   transform: scale(0);
-    //   transition: transform 0.2s ease-in;
-
-    //   transform: scale(1);
-    //   &.active {
-    //   }
-    // }
-
-    // .img-1 {
-    //   top: 4%;
-    //   left: 4%;
-    //   width: 9%;
-    //   min-width: 60px;
-    //   transition-delay: 300ms;
-    // }
-
-    // .img-2 {
-    //   top: 21%;
-    //   left: 12%;
-    //   width: 4.5%;
-    //   transition-delay: 500ms;
-    // }
-
-    // .img-3 {
-    //   top: 16%;
-    //   left: 3%;
-    //   width: 3.5%;
-    //   transition-delay: 500ms;
-    // }
-
-    // .img-4 {
-    //   top: 8%;
-    //   left: 18%;
-    //   width: 3.3%;
-    //   transition-delay: 500ms;
-    // }
-
-    // .img-5 {
-    //   top: 29%;
-    //   left: 0%;
-    //   width: 7%;
-    //   transition-delay: 500ms;
-    // }
   }
 }
 
