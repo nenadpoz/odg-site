@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   height: 56px;
-  box-shadow: 0px 2px 6px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.05);
   padding: 0 20px;
   position: fixed;
   top: 0;
@@ -14,9 +14,6 @@
 
   .home-page & {
     padding-top: 66px;
-    @include min-screen($breakpoint-small) {
-      padding-top: 136px;
-    }
   }
 }
 

@@ -13,7 +13,7 @@
     font: var(--text-5);
     transition: all 0.2s ease-in-out;
     &:hover {
-      background-color: rgba(238, 242, 244, 0.3);
+      background-color: rgba(238, 242, 244, 0.6);
     }
     &.active {
       color: var(--purple-1);

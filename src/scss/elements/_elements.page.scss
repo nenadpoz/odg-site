@@ -133,7 +133,7 @@ img {
 
   hr {
     margin: 4rem 0;
-    border: var(--border-color) 1px solid;
+    border: 1px solid #eff2f4;
     background-color: transparent;
   }
 
@@ -193,6 +193,7 @@ img {
   .hero {
     @include min-screen($breakpoint-small) {
       margin-bottom: 50px;
+      margin-top: 50px;
     }
   }
 
