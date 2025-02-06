@@ -562,6 +562,7 @@ a:focus, a:active {
 }
 .home-page .footer .wrapper {
   padding: 0;
+  white-space: nowrap;
 }
 .footer a {
   color: inherit;
