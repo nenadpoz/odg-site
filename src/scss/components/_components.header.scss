@@ -13,7 +13,10 @@
   background-color: var(--white);
 
   .home-page & {
-    padding-top: 136px;
+    padding-top: 76px;
+    @include min-screen($breakpoint-small) {
+      padding-top: 136px;
+    }
   }
 }
 
