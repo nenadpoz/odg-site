@@ -547,7 +547,7 @@ a:focus, a:active {
 
 .footer {
   text-align: center;
-  padding-bottom: 48px;
+  padding-bottom: 28px;
   margin-top: 140px;
   font: var(--text-4);
 }
@@ -579,6 +579,12 @@ a:focus, a:active {
 .home-page .footer a:hover {
   color: var(--gray-5);
 }
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-bottom: 48px;
+  }
+}
+
 /**
 * Reset input styles.
 */
