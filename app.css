@@ -399,6 +399,7 @@ img {
   padding: 0 20px;
   position: relative;
   z-index: 2;
+  gap: 50px;
 }
 .home-page .content h1 {
   color: var(--white);
