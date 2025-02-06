@@ -552,7 +552,7 @@ a:focus, a:active {
 
 .footer {
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 24px;
   margin-top: 140px;
   font: var(--text-4);
 }
